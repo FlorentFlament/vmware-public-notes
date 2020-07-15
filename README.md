@@ -12,17 +12,23 @@ On [VMware website][5], there is an "App modernization" section in the
 the following links:
 
 * [Solutions][7]
+
   - [App Modernization][8]: The "App Modernization solutions" section
     is split into 3 items:
+
 	. [Consume Kubernetes Across Clouds][6] - The (Kubernetes)
       platform management aspect.
-    . [Build Cloud-Native Apps][9] - Labs to efficiently write
+
+	. [Build Cloud-Native Apps][9] - Labs to efficiently write
       cloud-native applications from scratch.
+
 	. [Evolve Existing Apps][10] - Labs to transform legacy
       applications, and adopt modern development patterns.
 
 * [Products][11]
+
   - App Modernization
+
 	. [Tanzu Kubernetes Grid][17]
 	. [Tanzu Observability by Wavefront][14]
 	. [Tanzu Application Service][18]
@@ -32,10 +38,11 @@ the following links:
 
 Also some products in the "App Modernization" section of the [Products
 page][11], though not appearing in the main "Products" roll-down menu:
-	. [Pivotal GemFire][16]
-	. [Pivotal tc Server][19]
-	. [Pivotal App Suite][20]
-	. [Pivotal RabbitMQ][21]
+
+. [Pivotal GemFire][16]
+. [Pivotal tc Server][19]
+. [Pivotal App Suite][20]
+. [Pivotal RabbitMQ][21]
 
 
 ## Random
