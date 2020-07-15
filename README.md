@@ -36,11 +36,14 @@ the following links:
 
 	. [Tanzu Application Service][18]
 
-	. [Tanzu Application Catalog][13]
-
 	. [Tanzu Service Mesh][15]
 
     . [Tanzu Mission Control][12]
+
+	. [Tanzu Application Catalog][13] - This isn't specific to
+      VMware. This is a catalog of curated software (by bitnami, then
+      bought by VMware) that can be deployed on any Kubernetes
+      cluster.
 
 
 Also some products in the "App Modernization" section of the [Products
