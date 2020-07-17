@@ -83,9 +83,9 @@ Our core VMware products are therefore:
 
   - (good) [introduction video][29]
 
-* [Tanzu Service Mesh][15]
+* [Tanzu Service Mesh][15] ([doc][30])
 
-* [Tanzu Mission Control][12]
+* [Tanzu Mission Control][12] ([doc][31])
 
 * [Tanzu Application Catalog][13] - This isn't specific to
   VMware. This is a catalog of curated software (by bitnami, then
@@ -141,3 +141,5 @@ registration; a whole lot of "sessions" are programmed.
 [27]: https://docs.pivotal.io/platform/2-9/installing/pcf-docs.html
 [28]: https://docs.wavefront.com/
 [29]: https://www.youtube.com/watch?v=90mw6Vcmlt4
+[30]: https://docs.pivotal.io/tkgi/1-8/nsxt-service-mesh.html
+[31]: https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/index.html
