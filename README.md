@@ -12,47 +12,31 @@ On [VMware website][5], there is an "App modernization" section in the
 the following links:
 
 * [Solutions][7]
-
-  - [App Modernization][8] - The "App Modernization solutions" section
+  * [App Modernization][8] - The "App Modernization solutions" section
     is split into 3 items:
-
-	. [Consume Kubernetes Across Clouds][6] - The (Kubernetes)
+	* [Consume Kubernetes Across Clouds][6] - The (Kubernetes)
       platform management aspect.
-
-	. [Build Cloud-Native Apps][9] - Labs to efficiently write
+	* [Build Cloud-Native Apps][9] - Labs to efficiently write
       cloud-native applications from scratch.
-
-	. [Evolve Existing Apps][10] - Labs to transform legacy
+	* [Evolve Existing Apps][10] - Labs to transform legacy
       applications, and adopt modern development patterns.
 
-
 * [Products][11]
-
-  - App Modernization
-
-	. [Tanzu Kubernetes Grid][17]
-
-	. [Tanzu Application Service][18]
-
-    . [Tanzu Observability by Wavefront][14]
-
-	. [Tanzu Service Mesh][15]
-
-    . [Tanzu Mission Control][12]
-
-	. [Tanzu Application Catalog][13]
-
+  * App Modernization
+	* [Tanzu Kubernetes Grid][17]
+	* [Tanzu Application Service][18]
+    * [Tanzu Observability by Wavefront][14]
+	* [Tanzu Service Mesh][15]
+    * [Tanzu Mission Control][12]
+	* [Tanzu Application Catalog][13]
 
 Also some products in the "App Modernization" section of the [Products
 page][11], though not appearing in the main "Products" roll-down menu:
 
-. [Pivotal GemFire][16]
-
-. [Pivotal tc Server][19]
-
-. [Pivotal App Suite][20]
-
-. [Pivotal RabbitMQ][21]
+* [Pivotal GemFire][16]
+* [Pivotal tc Server][19]
+* [Pivotal App Suite][20]
+* [Pivotal RabbitMQ][21]
 
 
 ## App Modernization - Platform
@@ -65,28 +49,19 @@ Integrated Edition)
 Our core VMware products are therefore:
 
 * [Tanzu Kubernetes Grid][17] ([doc][23]) of which 3 variants exist:
-
-  . [Tanzu Kubernetes Grid][24], which deployment method depends on
+  * [Tanzu Kubernetes Grid][24], which deployment method depends on
 	the version of vSphere (vSphere 7 vs vSphere 6) it will be
 	deployed on.
-
-  . [Tanzu Kubernetes Gris Integrated Edition][25] and former [Pivotal
+  * [Tanzu Kubernetes Gris Integrated Edition][25] and former [Pivotal
     documentation][26]. This is the rebranding of former Pivotal's
     PKS.
-
 * [VMware Tanzu Application Service][18] ([doc][27]) is the new name
   of former Pivotal PAS.
-
 * [Tanzu Observability by Wavefront][14]
-
-  - [doc][28]
-
-  - (good) [introduction video][29]
-
+  * [doc][28]
+  * (good) [introduction video][29]
 * [Tanzu Service Mesh][15] ([doc][30])
-
 * [Tanzu Mission Control][12] ([doc][31])
-
 * [Tanzu Application Catalog][13] - This isn't specific to
   VMware. This is a catalog of curated software (by bitnami, then
   bought by VMware) that can be deployed on any Kubernetes
@@ -118,7 +93,7 @@ Just ordered [Programming the 80386][1] book, written by John
 H. Crawford and Patrick P. Gelsinger, the later being current VMware
 CEO.
 
-Found [Frank Denneman's blog][2], looks interesting.
+Found [Frank Denneman's blog][2], looks interesting:
 * Interesting [discussion about NUMA][4] (Non Uniform Memory Access).
 
 [VMworld 2020][3], from September 29th to October 1st. There's a free
