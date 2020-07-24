@@ -24,6 +24,24 @@ Where:
 Source:
 * [VMware Platform Automation task reference][1]
 
+That said, `p-automator` can't easily be used as a standalone
+executable, as it relies on tools like `govc`. The usual workflow to
+use `p-automator` is to use the docker image provided by VMware
+[Platform Automation Toolkit][3]
+
+Once the image has been imported by local Docker daemon:
+
+    docker import platform-automation-image-4.4.4.tgz platform-automation:4.4.4
+
+One would be able to launch `p-automator` like this:
+
+    docker run -v ${PWD}:/work platform-automation:4.4.4 \
+	  p-automator create-vm \
+	    --config /work/${OPSMAN_CONFIG_FILE} \
+		--image-file /work/${IMAGE_FILE} \
+		--state-file /work/${INPUT_STATE_FILE}
+
 
 [1]: https://docs.pivotal.io/platform-automation/v4.4/tasks.html#create-vm
 [2]: examples/vsphere/opsman.yml
+[3]: https://network.pivotal.io/products/platform-automation/
