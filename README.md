@@ -93,6 +93,19 @@ Our core VMware products are therefore:
   cluster.
 
 
+## Previous Tanzu offering
+
+Although there are a bunch of products soon to be rolled out, the
+products our team is currently working on are TKGI (Tanzu Kubernetes
+Grid Integrated Edition), TAS (Tanzu Application Service) and
+Concourse. These products were formely named PKS (Pivotal Container
+Service), PAS (Pivotal Application Service) and Platform Automation
+Engine respectively.
+
+Here's a [drawing of a setup example of TKGI, TAS and Concourse on a
+vSphere infrastructure][32].
+
+
 ## Training
 
 [Hands-on Labs][22] seem to be a good starting point to learn about
@@ -143,3 +156,4 @@ registration; a whole lot of "sessions" are programmed.
 [29]: https://www.youtube.com/watch?v=90mw6Vcmlt4
 [30]: https://docs.pivotal.io/tkgi/1-8/nsxt-service-mesh.html
 [31]: https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/index.html
+[32]: architecture-tkgi-tas-concourse.png
