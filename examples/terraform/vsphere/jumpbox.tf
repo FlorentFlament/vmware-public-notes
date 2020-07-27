@@ -66,4 +66,9 @@ resource "vsphere_virtual_machine" "vmFromRemoteOvf" {
       "user-data"   = base64encode(var.jumpbox_user_data)
     }
   }
+
+  // Ignoring fields created by vSphere to allow idempotency
+  lifecycle {
+    ignore_changes = [ storage_policy_id ]
+  }
 }
