@@ -43,5 +43,5 @@ One would be able to launch `p-automator` like this:
 
 
 [1]: https://docs.pivotal.io/platform-automation/v4.4/tasks.html#create-vm
-[2]: examples/vsphere/opsman.yml
+[2]: examples/vsphere/p-automator/opsman.yml
 [3]: https://network.pivotal.io/products/platform-automation/
